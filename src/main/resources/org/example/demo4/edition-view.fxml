@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo4.controller.EditionController">
+   <children>
+      <TextField fx:id="setType" layoutX="94.0" layoutY="74.0" />
+      <TextField fx:id="setLength" layoutX="94.0" layoutY="137.0" />
+      <TextField fx:id="setCalories" layoutX="94.0" layoutY="200.0" />
+      <Button id="Save changes" fx:id="save" layoutX="119.0" layoutY="287.0" mnemonicParsing="false" onAction="#saveChanges" text="guardar cambio" />
+      <Label layoutX="133.0" layoutY="46.0" text="tipo actividad" />
+      <Label layoutX="146.0" layoutY="113.0" text="duracion" />
+      <Label layoutX="149.0" layoutY="179.0" text="calorias" />
+   </children>
+</AnchorPane>
